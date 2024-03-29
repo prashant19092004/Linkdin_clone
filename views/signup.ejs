@@ -1,0 +1,32 @@
+<% include ./partials/header.ejs %>
+<div class="main flex justify-center items-center p-10 flex-col gap-5">
+    <div class="login-card w-[330px] p-5 flex flex-col gap-6 shadow-lg">
+        <div class="flex flex-col w-[100%]">
+            <h1 class="text-3xl font-medium">Make the most of your professional life</h1>
+        </div>
+        <form class="login-input flex flex-col w-[100%] gap-5">
+            <div class="w-[100%] h-[50px] border-[1px] border-black rounded-md flex flex-col p-1 px-2 justify-center">
+                <p>username</p>
+                <input type="text"  class="w-[100%] bg-transparent text-[1.2rem] focus:outline-none" name="username" value="prashant">
+            </div>
+            <div class="w-[100%] h-[50px] border-[1px] border-black rounded-md flex flex-col p-1 px-2 justify-center">
+                <p>Password</p>
+                <input type="password"  class="w-[100%] bg-transparent text-[1.2rem] focus:outline-none" name="password" value="prashant">
+            </div>
+            <p class="text-[0.8rem] text-center">By clicking Continue, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.</p>
+            <button type="submit" class="w-[100%] h-10m bg-blue-900 rounded-full py-4 text-white text-medium text-[1rem]">Agree & Join</button>
+        </form>
+        <div class="flex items-center justify-between">
+            <div class="h-[1px] bg-black w-[42%]"></div>
+            <p>or</p>
+            <div class="h-[1px] bg-black w-[42%]"></div>
+        </div>
+        <div class="flex flex-col gap-3">
+            
+            <button class="w-[100%] h-10m border-[1px] border-gray-900 rounded-full py-4 text-black text-medium text-[1rem]"><span></span>Continue with Google</button>
+        </div>
+    </div>
+    <p>Already on LinkedIn? <a href="#">Sign In</a></p>
+</div>
+<% include ./partials/header.ejs %>
+       
